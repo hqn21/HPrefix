@@ -1,0 +1,22 @@
+name: HPrefix
+author: Haoquan Liu
+api: [3.0.0]
+version: 1.0.0
+main: Haoquan\HPrefix
+commands:
+  hprefix:
+    description: 稱號選單
+    aliases: [hp]
+    permission: hprefix.command.hprefix
+permissions:
+    hprefix.command.hprefix:
+        description: 允許玩家打開插件商店選單
+        default: true
+    hprefix.command.create:
+        description: 允許玩家添加新的稱號
+        default: op
+    hprefix.command.remove:
+        description: 允許玩家移除已設置的稱號
+        default: op
+  
+    
